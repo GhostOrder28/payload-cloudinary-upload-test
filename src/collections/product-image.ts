@@ -15,7 +15,7 @@ const ProductImage: CollectionConfig = {
     {
       name: 'name',
       type: 'text',
-      label: 'Nombre de la imagen',
+      label: 'Image name',
       required: true,
       access: {
         read: () => true
